@@ -1,6 +1,7 @@
 import './App.css';
-import ClassCounter from './components/hooks/ClassCounter';
-import HookCounter from './components/hooks/HookCounter';
+import ClassCounter1 from './components/hooks/useeffect/ClassCounter1';
+import CounterHook1 from './components/hooks/useeffect/CounterHook1';
+
 
 
 
@@ -8,7 +9,7 @@ import HookCounter from './components/hooks/HookCounter';
 function App() {
   return (
     <div className="App">
-    <HookCounter/>
+      <CounterHook1 />
     </div>
   );
 }
